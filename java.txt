@@ -1,0 +1,26 @@
+package zz;
+import java.util.Scanner;
+public class ss {
+	
+	public static void doctorVisitDates(int number) {
+		if (number<39)
+		System.out.println( number+"Enjoy your day**Good health");
+		else
+		System.out.println( number+"Corona is suspected* you must go to the nearest doctor to ensure your health." + 
+				"");	
+	
+	}
+	
+	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in);
+		System.out.println("Enterthe Temperature: " );
+		int temperature = reader.nextInt();
+		doctorVisitDates(temperature);
+		double area = Math.PI*  Math.pow(temperature, 2);
+	int numbers[]= {1,2,14,16,4,15,6,7,8,29};
+ for(int i=0;i < numbers.length;i++);
+
+		
+	}
+
+}
